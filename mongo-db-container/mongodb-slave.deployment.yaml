@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mongo-slave
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mongodb
+        role: slave
+        tier: backend
+    spec:
+      containers:
+      - name: mongo
+        image: launcher.gcr.io/google/mongodb3 # or just image: redis
+        args:
+          - --auth
+        env:
+        - name: GET_HOSTS_FROM
+          value: env

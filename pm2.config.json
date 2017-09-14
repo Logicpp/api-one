@@ -1,0 +1,19 @@
+{
+    "apps": [
+        {
+            "name": "ServerCity",
+            "script": "./index.js",
+            "watch": true,
+            "ignore_watch": [
+                ".git",
+                ".md"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "env_production": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
