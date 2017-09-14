@@ -1,3 +1,10 @@
+/**
+ * crud.js
+ *
+ * @author Jonas Tomanga <celleb@logicpp.com.na>
+ * @copyright (c) 2017 Logic Plus Information Technologies CC
+ * @license MIT
+ */
 // CRUD OPERATIONS
 _CREATE = 'create';
 _READ = 'read';

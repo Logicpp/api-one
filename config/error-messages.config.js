@@ -17,7 +17,6 @@ errorMessages = {
     noAuthorizationFound: "No authorization record found for this user",
     noPermissionsFound: "Authorization exist but no permissions have been defined for this user.",
     entryConflict: "This entry conflicts with an existing entry, possible duplication."
-
 }
 
 module.exports = errorMessages;

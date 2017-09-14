@@ -1,3 +1,10 @@
+/**
+ * routes.factory.js
+ *
+ * @author Jonas Tomanga <celleb@logicpp.com.na>
+ * @copyright (c) 2017 Logic Plus Information Technologies CC
+ * @license MIT
+ */
 const Routes = require('./routes');
 const authentication = require('../config/authentication');
 const authorization = require('../config/authorization');

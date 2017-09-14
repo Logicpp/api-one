@@ -1,4 +1,7 @@
-# InterCity Server
+# API ONE
+
+API ONE is an API Framework that lets you build RESTFUL APIs without having to write too much code.
+API ONE uses Node.js, Expressjs, Mongodb and Mongoose.
 
 ## Setup
 
@@ -6,11 +9,9 @@
 
 **Database**: MongoDB
 
-**Database Library**: Mongoose
+**Database ODM**: Mongoose
 
 ### Development
-
-**Database Server**: 130.211.102.183
 
 ### Config Paths
 

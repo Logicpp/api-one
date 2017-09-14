@@ -3,7 +3,7 @@
  *
  * @author Jonas Tomanga <celleb@logicpp.com.na>
  * @copyright (c) 2017 Logic Plus Information Technologies CC
- * All rights reserved
+ * @license MIT
  */
 const _ = require('lodash');
 const express = require('express');

@@ -3,7 +3,7 @@
  *
  * @author Jonas Tomanga <celleb@logicpp.com.na>
  * @copyright (c) 2017 Logic Plus Information Technologies CC
- * All rights reserved
+ * @license MIT
  */
 
 /** HTTP status codes constants to be used for the api responses */

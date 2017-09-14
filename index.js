@@ -1,4 +1,10 @@
-const Promise = require('bluebird');
+/**
+ * index.js
+ *
+ * @author Jonas Tomanga <celleb@logicpp.com.na>
+ * @copyright (c) 2017 Logic Plus Information Technologies CC
+ * All rights reserved
+ */
 const bodyParser = require('body-parser');
 const compression = require('compression');
 const multer = require('multer');
@@ -18,5 +24,5 @@ app.use(compression())
 router.initialize(app);
 app.use(errorHandler);
 app.listen(8080, () => {
-    console.log('OMBAPI Running');
+    console.log('Running API ONE on port 8080');
 });

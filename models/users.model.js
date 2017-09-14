@@ -3,7 +3,7 @@
  *
  * @author Jonas Tomanga <celleb@mrcelleb.com> 
  * @copyright (c) 2017 Jonas Tomanga 
- * All rights reserved 
+ * @license MIT
  */
 
 /**
@@ -24,7 +24,6 @@ const schema = {
     dateOfBirth: { type: Date },
     date: { type: Date, default: Date.now },
     type: { type: String, required: true },
-    licenceNo: { type: String, default: null },
     idNo: { type: String, default: null },
     nationality: { type: String, default: null },
     status: { type: Number, default: 1 }
@@ -40,7 +39,6 @@ const dictionary = {
     dob: "dateOfBirth",
     date: "date",
     type: "type",
-    licence: "licenceNo",
     idNo: "idNo",
     nationality: "nationality",
     status: "status"

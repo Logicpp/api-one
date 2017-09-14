@@ -3,7 +3,7 @@
  *
  * @author Jonas Tomanga <celleb@logicpp.com.na>
  * @copyright (c) 2017 Logic Plus Information Technologies CC
- * All rights reserved
+ * @license MIT
  */
 const firebaseCredentials = require('./private/servercity-aba6d-firebase-adminsdk-0t19o-7201a08351.json');
 const credentials = require('./private/credentials');

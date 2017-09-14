@@ -3,7 +3,7 @@
  *
  * @author Jonas Tomanga <celleb@mrcelleb.com> 
  * @copyright (c) 2017 Jonas Tomanga 
- * All rights reserved 
+ * @license MIT
  */
 const _ = require('lodash');
 let Promise = require('bluebird');
